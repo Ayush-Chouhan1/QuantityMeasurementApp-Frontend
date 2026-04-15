@@ -202,14 +202,19 @@ body {
   margin-top: 12px;
 }
 
-.switch-link a {
+.link-button {
+  background: transparent;
+  border: none;
   color: #c0392b;
   font-weight: 600;
   cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
   text-decoration: none;
+  padding: 0;
 }
 
-.switch-link a:hover {
+.link-button:hover {
   text-decoration: underline;
 }
 
