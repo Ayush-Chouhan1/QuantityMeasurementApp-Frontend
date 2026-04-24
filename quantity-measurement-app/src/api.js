@@ -118,7 +118,7 @@ async function safeFetch(path, options) {
   try {
     return await fetch(buildUrl(path), options);
   } catch (e) {
-    throw new Error('Cannot reach backend. Ensure API Gateway is running on http://localhost:8080, then restart frontend.');
+    throw new Error('Cannot reach backend. Backend might be down.');
   }
 }
 
